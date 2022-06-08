@@ -10,9 +10,9 @@ int print_sign(int n)
 {
 	int y;
 
-	if (n<0)
+	if (n < 0)
 	{
-	       y = -1;
+	       	y = -1;
 		_putchar('-');
 	}
 	else if (n > 0)
