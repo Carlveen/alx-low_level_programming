@@ -19,7 +19,9 @@ void print_alphabet(void)
 		{
 			_putchar(y);
 		}
-		_putchar('\n);
+		_putchar('\n');
 	}
+	return (0);
+}
 
 	
