@@ -15,7 +15,7 @@ int main(void)
 
 	for (c = 1; c <= 50; c++)
 	{
-		if (a ! = 20365011074)
+		if (a != 20365011074)
 		{
 			printf("%ld, ", a);
 		}
