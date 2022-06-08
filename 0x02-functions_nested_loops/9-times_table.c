@@ -23,11 +23,6 @@ void times_table(void)
 
 			_putchar((num * y) + '0');
 
-		//	if (y < 9)
-		//	{
-		//	_putchar(',');
-		//	_putchar(' ');
-		//	}
 		}
 		_putchar('\n');
 	}
