@@ -1,5 +1,5 @@
-#ifndef H_MAIN_H_
-#define H_MAIN_H_
+#ifndef MAIN_H
+#define MAIN_H
 
 int _putchar(char c);
 int _isupper(int c);
