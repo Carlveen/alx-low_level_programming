@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * isLower - Determines whether ascii is lowercase
- * @c: it is a character param
+ * cap_string -changes to uppercase
+ * @s: it is a string param
  *
  * Return: 1 if true and 0 when false
  */
