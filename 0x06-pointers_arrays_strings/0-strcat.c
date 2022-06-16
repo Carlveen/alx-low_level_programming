@@ -10,13 +10,11 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	int new_dest;
 
-	new_dest = strcat(dest src);
+	strcat(dest, src);
 
-	char *p = &new_dest;
 
-	return (p);
+	return (dest);
 }
 
 
