@@ -12,5 +12,5 @@ void reverse_array(int *a, int n)
 {
 	strrev(a, n);
 
-	return (a);
+	return (0);
 }
