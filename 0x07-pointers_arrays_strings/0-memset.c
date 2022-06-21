@@ -13,6 +13,11 @@ char *_memset(char *s, char b, unsigned int n)
 {
 	memset(s, 'b', n);
 
+	for (i = 0; i < n; i++);
+	{
+		_putchar(s);
+	}
+
 	return (s);
 }
 
