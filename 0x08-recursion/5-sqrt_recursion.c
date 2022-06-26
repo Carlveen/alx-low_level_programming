@@ -14,20 +14,19 @@ int sqrt_evaluation(int n, int a)
 	if (a % (n / a) == 0)
 	{
 		if (a * (n / a) == n)
-		{
 			return (a);
-		}
-			else
-
-				return (-1);
-		}
-		return (0 + sqrt_evaluation(n, a + 1));
+		else
+			return (-1);
 	}
-	/**
-	 * _sqrt_recursion - returns the natural square root of a number
-	 *  @n: input number
-	 *  Return: natural square root
-	 */
+
+	return (0 + sqrt_evaluation(n, a + 1));
+}
+
+/**
+ * _sqrt_recursion - returns the natural square root of a number
+ * @n: input number.
+ * Return: square root
+ */
 
 int _sqrt_recursion(int n)
 {
