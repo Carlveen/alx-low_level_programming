@@ -16,11 +16,12 @@ int sqrt_evaluation(int n, int a)
 		if (a * (n / a) == n)
 		{
 			return (a);
+		}
 			else
 
 				return (-1);
 		}
-		return (0 + power_operation(n, a + 1));
+		return (0 + sqrt_evaluation(n, a + 1));
 	}
 	/**
 	 * _sqrt_recursion - returns the natural square root of a number
@@ -36,6 +37,6 @@ int _sqrt_recursion(int n)
 		return (0);
 	if (n == 1)
 		return (1);
-	return (power_operation(n, 2));
+	return (sqrt_evaluation(n, 2));
 }
 
