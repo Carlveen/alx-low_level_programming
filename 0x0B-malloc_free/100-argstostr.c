@@ -3,7 +3,6 @@
  * argstostr - prints args
  * @ac: takes in width of grid
  * @av: height of grid
- *
  * Return: the args one line at a time
  */
 
@@ -22,6 +21,7 @@ char *argstostr(int ac, char **av)
 			count++;
 			b++;
 		}
+		a++;
 	}
 	count = count + ac + 1;
 	str = malloc(sizeof(char) * count);
