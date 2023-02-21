@@ -2,6 +2,7 @@
 
 /**
  * main - print_alphabet
+ * print_alphabet - print alphabet
  * Return: 0
  */
 
