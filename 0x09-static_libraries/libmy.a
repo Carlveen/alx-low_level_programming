@@ -1,3 +1,3 @@
 gcc -c my_library/my_function.c -o my_function.o
-ar rcs libmy.a my_library/*.o
+
 
